@@ -29,9 +29,9 @@ for i in idx_list:
         pass
     
 f = open("buy_list.txt", "w")
-f.write(buy_list)
+f.write(str(buy_list))
 f.close()
 
 f = open("strong_buy_list.txt", "w")
-f.write(strong_buy_list)
+f.write(str(strong_buy_list))
 f.close()
